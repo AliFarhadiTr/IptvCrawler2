@@ -1,4 +1,7 @@
 <?php
+
+require_once 'vendor/autoload.php';
+
 /*
  * set countries
  *allowed countries=>
