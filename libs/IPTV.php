@@ -9,7 +9,14 @@ class IPTV
     public function __construct()
     {
 
-        $this->init_client();
+        //$this->init_client();
+        $this->client = new Client([
+            // Base URI is used with relative requests
+            'base_uri' => 'https://iptvcat.com/',
+            // You can set any number of default request options.
+            'timeout'  => 60,
+            'verify' => false
+        ]);
         $this->countries=$this->read_countries();
     }
 
@@ -33,6 +40,7 @@ class IPTV
             'timeout'  => 60,
             'verify' => false
         ]);
+
     }
 
     public function Fetch(){
@@ -46,18 +54,30 @@ class IPTV
             $cnt=0;
             while (true){
 
-                $res=$this->client->get($country.'/'.$page, [
-                    'headers'        => ['User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0']
-                ]);
+                $err=0;
+                er1:
+                if ($err>5)break;
+                try {
+
+                    $res=$this->client->get($country.'/'.$page, [
+                        'headers'        => ['User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0']
+                    ]);
+
+                }catch (\Exception $ex){
+                    $err++;
+                    sleep(rand(1,4));
+
+                    goto er1;
+                }
 
                 $page++;
-                usleep(10000);
-                echo $page;
+
                 if ($res->getStatusCode()==200){
                     $content=$res->getBody()->getContents();
+
                     if (strpos($content, 'Nothing found!')!== false)
                     {
-                        echo 'ddd';
+
                         break;
                     }
 
@@ -73,32 +93,48 @@ class IPTV
 
                         $live = intval($lives[1][$i]);
 
+                        echo '*'.$live.'*';
                         if ($live < MIN_QUALITY || $live > MAX_QUALITY) continue;
 
                         if (array_key_exists($ids[1][$i],$channels)) continue;
 
                         $channels[$ids[1][$i]]=[$live];
 
-                        $res=$this->client->post('ajax/streams_a?action=list', [
-                            'headers'        => [
-                                'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
-                                'Referer'=> 'https://iptvcat.com/'.$country."/" . $page
-                            ],
-                            'form_params' =>[
-                                'to_del' => 'false',
-                                'sort' => 'false',
-                                'items[]'=>$ids[1][$i]
-                            ]
-                        ]);
+                        $err=0;
+                        er2:
+                        if ($err>3)break;
+                        try {
+                            $res=$this->client->post('ajax/streams_a?action=list', [
+                                'headers'        => [
+                                    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+                                    'Referer'=> 'https://iptvcat.com/'.$country."/" . $page
+                                ],
+                                'form_params' =>[
+                                    'to_del' => 'false',
+                                    'sort' => 'false',
+                                    'items[]'=>$ids[1][$i]
+                                ]
+                            ]);
+
+                        }catch (\Exception $ex){
+                            $err++;
+                            sleep(rand(1,4));
+                            goto er2;
+                        }
+
 
                         if (++$cnt >= MAX_CHANEL) break;
                     }
 
-                }else throw new Exception("main:response wrong status=>" .$res->getStatusCode());
+                }else {
+                    $err++;
+                    sleep(rand(1,4));
+                    goto er1;
+                }
 
             }
 
-            //$this->saver($country,1);
+            $this->saver($country,1);
         }
     }
 
@@ -116,8 +152,8 @@ class IPTV
                 'headers'        => ['User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0']
             ]);
 
-            $content=$res->getBody()->getContents();
-            var_dump($content);
+            //$content=$res->getBody()->getContents();
+            var_dump($content,$links);
             exit();
         }
         var_dump('dd',$res);

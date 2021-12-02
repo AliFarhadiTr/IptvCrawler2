@@ -24,20 +24,20 @@ define('ABS_PATH',dirname(__FILE__));
  * United States of America,Uruguay,Uzbekistan,Venezuela,Vietnam,Western Sahara,Yemen,
  *   لیست کشورها
  */
-define('COUNTRIES',['North America','South America']);
+define('COUNTRIES',['Sport']);
 /*#####################################################################################################*/
 /*
  *set quality range (0-100)
  * محدودیت کیفیت
  */
-define('MIN_QUALITY',30);
+define('MIN_QUALITY',80);
 define('MAX_QUALITY',100);
 /*#####################################################################################################*/
 /*
  *set status (enable,disable,all)
  * انتخاب وضعیت
  */
-define('STATUS','all');
+define('STATUS','enable');
 /*#####################################################################################################*/
 /*
  * maximum channels(0-100000)
