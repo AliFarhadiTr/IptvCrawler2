@@ -2,6 +2,8 @@
 
 require_once 'vendor/autoload.php';
 
+define('ABS_PATH',dirname(__FILE__));
+
 /*
  * set countries
  *allowed countries=>
@@ -22,20 +24,20 @@ require_once 'vendor/autoload.php';
  * United States of America,Uruguay,Uzbekistan,Venezuela,Vietnam,Western Sahara,Yemen,
  *   لیست کشورها
  */
-define('COUNTRIES',['Sport','Africa','Asia','Europe']);
+define('COUNTRIES',['North America','South America']);
 /*#####################################################################################################*/
 /*
  *set quality range (0-100)
  * محدودیت کیفیت
  */
-define('MIN_QUALITY',80);
+define('MIN_QUALITY',30);
 define('MAX_QUALITY',100);
 /*#####################################################################################################*/
 /*
  *set status (enable,disable,all)
  * انتخاب وضعیت
  */
-define('STATUS','enable');
+define('STATUS','all');
 /*#####################################################################################################*/
 /*
  * maximum channels(0-100000)
