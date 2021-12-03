@@ -17,7 +17,7 @@ class IPTV
 
     private function OutputInit()
     {
-        $this->outfile = ABS_PATH . "/output/0-channels.m3u";
+        $this->outfile = ABS_PATH . "/output/".intval(date("d"))."-channels.m3u";
         if (file_exists($this->outfile)) {
             unlink($this->outfile);
         }
@@ -141,6 +141,7 @@ class IPTV
                     goto er1;
                 }
 
+                sleep(DELAY_SEC);
             }
 
             $err=0;
@@ -221,10 +222,15 @@ class IPTV
 
             file_put_contents($this->outfile, $content, FILE_APPEND | LOCK_EX);
 
+            /*
             $new_name = preg_replace("'[0-9]+?-channels\.m3u'si", $this->total . "-channels.m3u", $this->outfile);
-            if(file_exists($new_name))unlink($new_name); // Delete the existing file if exists
-            rename($this->outfile, $new_name); // Rename the oldFileName into newFileName
+            if ($new_name!=$this->outfile){
+                if(file_exists($new_name))unlink($new_name); // Delete the existing file if exists
+                rename($this->outfile, $new_name); // Rename the oldFileName into newFileName
+            }
+
             $this->outfile = $new_name;
+            */
         }else throw new \Exception("cant save file.");
 
     }

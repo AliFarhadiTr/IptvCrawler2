@@ -72,7 +72,12 @@ define('APPEND_ALL',
 /*
  * github token(use '' for disable)
  */
-define('GIT_TOKEN','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');
+define('GIT_TOKEN','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');
+/*#####################################################################################################*/
+/*
+ * delay
+ */
+define('DELAY_SEC',1);
 
 /*#####################################################################################################*/
 /*

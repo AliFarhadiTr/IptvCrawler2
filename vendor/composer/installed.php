@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '89383c95aea7bbd81b57b5fdcd91e1e17ab7eeb3',
+    'reference' => 'b87240bcb3edcae70f02ad70e7b2843623ea473f',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '89383c95aea7bbd81b57b5fdcd91e1e17ab7eeb3',
+      'reference' => 'b87240bcb3edcae70f02ad70e7b2843623ea473f',
     ),
     'clue/stream-filter' => 
     array (
