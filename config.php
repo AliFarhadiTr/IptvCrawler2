@@ -1,9 +1,5 @@
 <?php
 
-require_once 'vendor/autoload.php';
-
-define('ABS_PATH',dirname(__FILE__));
-
 /*
  * set countries
  *allowed countries=>
@@ -24,7 +20,7 @@ define('ABS_PATH',dirname(__FILE__));
  * United States of America,Uruguay,Uzbekistan,Venezuela,Vietnam,Western Sahara,Yemen,
  *   لیست کشورها
  */
-define('COUNTRIES',['Sport']);
+define('COUNTRIES',['Africa','Asia']);
 /*#####################################################################################################*/
 /*
  *set quality range (0-100)
@@ -43,7 +39,7 @@ define('STATUS','enable');
  * maximum channels(0-100000)
  * حداکثر کانال
  */
-define('MAX_CHANEL',5);
+define('MAX_CHANEL',6);
 /*#####################################################################################################*/
 /*
  * replace find_text to replace_text (['txt1','txt2'])
@@ -51,6 +47,11 @@ define('MAX_CHANEL',5);
  */
 define('FIND_TEXT',['#PLAYLIST:iptvcat.com']);
 define('REPLACE_TEXT',['#EXTM3U']);
+/*#####################################################################################################*/
+/*
+ *افزودن تعداد شبکه ها
+ */
+define('ADD_CHANEL_COUNT',true);
 /*#####################################################################################################*/
 /*
  *متن مربوط به کل شبکه ها
@@ -72,3 +73,11 @@ define('APPEND_ALL',
  * github token(use '' for disable)
  */
 define('GIT_TOKEN','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');
+
+/*#####################################################################################################*/
+/*
+ * dont change this!
+ */
+
+define('ABS_PATH',dirname(__FILE__));
+require_once ABS_PATH.'/extra.php';
