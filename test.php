@@ -1,6 +1,6 @@
 <?php
 
-$res=file_get_contents('http://localhost/last.json');
+$res=file_get_contents('http://localhost/last.php');
 
 $data=json_decode($res,true);
 
