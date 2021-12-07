@@ -27,7 +27,7 @@ class IPTV
     private function read_countries()
     {
         $csv = file_get_contents(ABS_PATH . '/database/countries.csv');
-        $lines = explode("\r\n", $csv);
+        $lines = explode("\n", $csv);
         $countries = [];
         foreach ($lines as $line) {
             if (strlen($line) < 5) continue;
