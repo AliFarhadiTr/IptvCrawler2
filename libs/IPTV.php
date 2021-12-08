@@ -31,6 +31,7 @@ class IPTV
         $countries = [];
         foreach ($lines as $line) {
             if (strlen($line) < 5) continue;
+            $line=str_replace("\r",'',$line);
             $row = explode(',', $line);
             $countries[$row[1]] = $row[0];
         }
@@ -54,8 +55,9 @@ class IPTV
     {
 
         $channels = [];
-        $total = 0;
+        $this->total = 0;
         $this->OutputInit();
+
         foreach (COUNTRIES as $country_txt) {
 
             $this->init_client();

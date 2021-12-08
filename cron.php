@@ -23,6 +23,7 @@ echo json_encode(
     [
         'status'=>1,
         'link'=>$last_link,
-        'Github'=>$git
+        'Github'=>$git,
+        'total'=>$iptv->total
     ]
     ,JSON_PRETTY_PRINT);
