@@ -20,7 +20,7 @@
  * United States of America,Uruguay,Uzbekistan,Venezuela,Vietnam,Western Sahara,Yemen,
  *   لیست کشورها
  */
-define('COUNTRIES',['Africa','Asia']);
+define('COUNTRIES',['Sport','Africa','Scandinavia','Afghanistan','Albania','Algeria','Argentina','Australia','Austria','Azerbaijan','Belgium','Belgium','Brazil','Bulgaria','Canada','Chile','China','Colombia','Croatia', 'Czech Republic','Egypt','Finland','France','Georgia','Germany','Greece','Hong Kong','Hungary','India','Indonesia','Iran','Iraq', 'Israel','Italy','Japan','Kazakhstan','Kuwait','Lebanon','Malaysia','Mexico','Moldova','Morocco','Netherlands','New Zealand', 'Oman','Pakistan','Panama','Portugal','Qatar','Romania', 'Russian Federation','Saudi Arabia','Slovakia','South Korea','Spain','Switzerland','Taiwan','Turkey','Turkmenistan','Ukraine','United Arab Emirates','United Kingdom', 'United States of America','Vietnam','Yemen']);
 /*#####################################################################################################*/
 /*
  *set quality range (0-100)
@@ -72,7 +72,7 @@ define('APPEND_ALL',
 /*
  * github token(use '' for disable)
  */
-define('GIT_TOKEN','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');
+define('GIT_TOKEN','');
 /*#####################################################################################################*/
 /*
  * delay
