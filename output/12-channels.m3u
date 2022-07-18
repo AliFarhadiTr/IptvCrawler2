@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Premium IPTV & ZalTV",Long term IPTV & ZalTV special offer
+    http://www.mene77.ir/zt/ads-11626999.mp4
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Sport(6)",Long term Sport IPTV & ZalTV
+    http://www.mene77.ir/zt/ads-11626.mp4
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",31 RTSH Sport HD
+http://185.204.32.4:9981/stream/channelid/1261192802?ticket=E164CD67A6836FEAF3BC6D7E2CADDEC4EAC87E29&profile=pass&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",Art Sport
+http://ip.bosszx.net:80/yamahasdfsdsdsdfsfdsfds/2NYlY9V1Eocxvxcvxcvxbcvbcv66a/2183?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",Art Sport 1 FHD
+http://ip.bosszx.net:80/yamahasdfsdsdsdfsfdsfds/2NYlY9V1Eocxvxcvxcvxbcvbcv66a/56638?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",Eurosport 1 Deutschland
+http://185.204.32.4:9981/stream/channelid/577840136?ticket=6BD731AAAAF62A0FC6B42210FD1752C29F939C80&profile=pass&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",K Sport 1
+http://ip.bosszx.net:80/yamahasdfsdsdsdfsfdsfds/2NYlY9V1Eocxvxcvxcvxbcvbcv66a/2187?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",K Sport 2
+http://ip.bosszx.net:80/yamahasdfsdsdsdfsfdsfds/2NYlY9V1Eocxvxcvxcvxbcvbcv66a/2186?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Africa(6)",Long term Sport IPTV & ZalTV
+    http://www.mene77.ir/zt/ads-11626.mp4
+#EXTINF:0 tvg-country="DZ" tvg-logo="" group-title="Africa(6)",AL HAYAT rtm
+rtmp://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream_360p?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DZ" tvg-logo="" group-title="Africa(6)",DIJAH  rtm
+rtmp://91.134.145.75/?gmswf=/Dijlah&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DZ" tvg-logo="" group-title="Africa(6)",Dijlah TV  jordan rtm
+rtmp://91.134.145.75/Dijlah?speed=1/?speed=1&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CM" tvg-logo="https://i.imgur.com/BuKv5Vj.png" group-title="Africa(6)",My TV Channel (576p)
+http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CM" tvg-logo="https://i.imgur.com/mvgRAZw.jpg" group-title="Africa(6)",Play TV (480p)
+http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CM" tvg-logo="https://i.imgur.com/FekWmTu.jpg" group-title="Africa(6)",Vision 4
+http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Scandinavia(6)",Long term Sport IPTV & ZalTV
+    http://www.mene77.ir/zt/ads-11626.mp4
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",6'EREN
+http://ip.bosszx.net:80/yamahasdfsdsdsdfsfdsfds/2NYlY9V1Eocxvxcvxcvxbcvbcv66a/4898?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",6'eren
+http://portal.m1n2.me:80/zXig8cj4uJ/ysKHL7knP9/28653?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",ANIMAL PLANET
+http://ip.bosszx.net:80/yamahasdfsdsdsdfsfdsfds/2NYlY9V1Eocxvxcvxcvxbcvbcv66a/35544?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",Animal Planet HD
+http://portal.m1n2.me:80/zXig8cj4uJ/ysKHL7knP9/28651?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",BBC BRIT FHD
+http://portal.m1n2.me:80/zXig8cj4uJ/ysKHL7knP9/41871?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",Boomerang [Multi-Audio]
+http://portal.m1n2.me:80/zXig8cj4uJ/ysKHL7knP9/40733?checkedby:iptvcat.com

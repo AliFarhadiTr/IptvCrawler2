@@ -20,7 +20,7 @@
  * United States of America,Uruguay,Uzbekistan,Venezuela,Vietnam,Western Sahara,Yemen,
  *   لیست کشورها
  */
-define('COUNTRIES',['Sport','Africa','Scandinavia','Afghanistan','Albania','Algeria','Argentina','Australia','Austria','Azerbaijan','Belgium','Belgium','Brazil','Bulgaria','Canada','Chile','China','Colombia','Croatia', 'Czech Republic','Egypt','Finland','France','Georgia','Germany','Greece','Hong Kong','Hungary','India','Indonesia','Iran','Iraq', 'Israel','Italy','Japan','Kazakhstan','Kuwait','Lebanon','Malaysia','Mexico','Moldova','Morocco','Netherlands','New Zealand', 'Oman','Pakistan','Panama','Portugal','Qatar','Romania', 'Russian Federation','Saudi Arabia','Slovakia','South Korea','Spain','Switzerland','Taiwan','Turkey','Turkmenistan','Ukraine','United Arab Emirates','United Kingdom', 'United States of America','Vietnam','Yemen']);
+define('COUNTRIES',['Sport','Africa','Scandinavia']);
 /*#####################################################################################################*/
 /*
  *set quality range (0-100)

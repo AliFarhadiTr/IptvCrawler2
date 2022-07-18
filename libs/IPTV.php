@@ -91,7 +91,10 @@ class IPTV
 
                         break;
                     }
+					if (isset($res->getHeaders()['Content-Type'][0]) && strpos($res->getHeaders()['Content-Type'][0], 'video/mp4') !== false) {
 
+                        die('blocked!');
+                    }
                     preg_match_all("'<span[^><]+?data-stream=\"([0-9]+?)\">Add to list</span>'si", $content, $ids);
                     preg_match_all("'<div class=\"live green\"[^><]+?>([0-9]+?)</div>'si", $content, $lives);
                     preg_match_all("'class=\"state ([^\"]+?)\"'si", $content, $statuses);

@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Premium IPTV & ZalTV",Long term IPTV & ZalTV special offer
+    http://www.mene77.ir/zt/ads-11626999.mp4
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Sport(6)",Long term Sport IPTV & ZalTV
+    http://www.mene77.ir/zt/ads-11626.mp4
+#EXTINF:0 tvg-country="AF" tvg-logo="" group-title="Sport(6)",GTV_SPORTS_PLUS
+http://smartestv.vip:2095/ABHVYOP/2387998104/31924?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",31 RTSH Sport HD
+http://185.204.32.4:9981/stream/channelid/1261192802?ticket=E164CD67A6836FEAF3BC6D7E2CADDEC4EAC87E29&profile=pass&checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",AL K SPORT2
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/7370?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",AL K SPORT3
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/7371?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",Art Sport 2 HD
+http://vt.protoniumtv.net:1997/iptvtree2021/POAIHfsmm525adA/53152?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport(6)",Art Sport 3 HD
+http://hz01.oknirvana.club:8880/AA6M0485/535355353/30335?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Africa(6)",Long term Sport IPTV & ZalTV
+    http://www.mene77.ir/zt/ads-11626.mp4
+#EXTINF:0 tvg-country="DZ" tvg-logo="" group-title="Africa(6)",AL HAYAT rtm
+rtmp://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream_360p?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CM" tvg-logo="https://i.imgur.com/BuKv5Vj.png" group-title="Africa(6)",My TV Channel (576p)
+http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CM" tvg-logo="https://i.imgur.com/FekWmTu.jpg" group-title="Africa(6)",Vision 4
+http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CM" tvg-logo="https://i.imgur.com/FekWmTu.jpg" group-title="Africa(6)",Vision 4
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CD" tvg-logo="" group-title="Africa(6)",Afrobeats
+https://stream.ecable.tv/afrobeats/index.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CD" tvg-logo="" group-title="Africa(6)",BOSS BROTHERS TV
+http://51.254.199.122:8080/bossbrothersTV/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/ogw/ADGmqu-mfXA-oq04H82TcIWTi4HIuoDHyAjC1LvyGSJJ" group-title="Scandinavia(6)",Long term Sport IPTV & ZalTV
+    http://www.mene77.ir/zt/ads-11626.mp4
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",6 Eren
+http://vt.protoniumtv.net:1997/iptvtree2021/POAIHfsmm525adA/60524?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",6 Eren
+http://iptvfree1.com:8080/live:david.romok/4bteskwwjs342/2973?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",6 Eren HD DK
+http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/7810?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",ANIMAL PLANET
+http://vt.protoniumtv.net:1997/iptvtree2021/POAIHfsmm525adA/64821?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",Animal Planet FHD DK
+http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/8181?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="DK" tvg-logo="" group-title="Scandinavia(6)",Animal Planet HD
+http://portal.m1n2.me:80/zXig8cj4uJ/ysKHL7knP9/28651?checkedby:iptvcat.com
